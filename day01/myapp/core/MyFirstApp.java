@@ -1,4 +1,4 @@
-// Package Declarationnnn
+// Package Declaration
 package myapp.core;
 
 //Imports - what to ues from other packages
