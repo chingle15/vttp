@@ -14,6 +14,11 @@ public class ServerMain {
 
     public static void main (String[] args) throws IOException{
 
+        //this is to check if user has inputted anything, anything above 0, we accept the port 
+        int port = 3000;
+        if(args.length > 0)
+        port = Integer.parseInt(args[0]);
+
         // create a server socket and listent o a port
         ServerSocket server = new ServerSocket(3000);
         // wait for connection to come in
